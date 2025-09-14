@@ -1,5 +1,5 @@
 import pandas as pd
-from ml_algorithms import ml_algorithms
+from TrainResources import TrainResources
 
 df = pd.read_excel("Thyroid_Diff.xlsx")
 
@@ -18,6 +18,6 @@ y = df["Recurred"] # target (recurred? -> yes/no)
 
 X_prop = pd.get_dummies(X, drop_first=True)
 
-train_resources = ml_algorithms()
+train_resources = TrainResources()
 train_resources.prepared_data(X, y)
 

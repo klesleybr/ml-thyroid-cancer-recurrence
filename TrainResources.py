@@ -1,6 +1,6 @@
 from sklearn.model_selection  import train_test_split
 
-class ml_algorithms:
+class TrainResources:
 
     accuracy_value = None
     recall_value = None
@@ -15,7 +15,6 @@ class ml_algorithms:
     
     def prepared_data(self, X, y, size=0.3, number_state=42):
         self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(X, y, test_size=size, random_state=number_state)
-        
         
     
     

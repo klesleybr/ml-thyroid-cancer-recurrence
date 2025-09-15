@@ -9,7 +9,6 @@ Neste treinamento é possível:
 * Ver as informações do *dataset* utilizado (*via biblioteca pandas*);
 * Separar os dados para teste e treino;
 * Realizar treinamento a partir de diversos algoritmos (Decision Tree Classifier, KNeighbors Classifier e Logistic Regression);
-* Realizar predições da recorrência de câncer de tireoide para uma determinada entrada de dados;
 * Medir variáveis de desempenho (acurácia, *recall* e F1);
 * Visualizar resultados em forma de gráfico e matrizes de decisão.
 
@@ -19,7 +18,7 @@ Abaixo estão dispostos os dados do experimento e suas respectivas descrições.
 
 | Modelo                   | Acurácia   | Recall    | F1       |
 | ------------------------ | ---------- | --------- | -------- |
-| Decision Tree Classifier | 92,173 %   | 92,658 ¨% | 90,683 % |
+| Decision Tree Classifier | 93,043 %   | 94,221 ¨% | 91,786 % |
 | KNeighbors Classifier    | 87,826 %   | 81,005 %  | 83,477 % |
 | Logistic Regression      | 95,652 %   | 94,108 %  | 94,535 % |
 
@@ -29,9 +28,9 @@ Utilizando as técnicas de medição disponibilizadas pelo `sklearn.metrics` (re
 > Em *train.py*, note que foram atribuídos os parâmetros `test_size=0.3` e `random_state=42` para o método `train_test_split()`. A alteração destes valores pode acarretar em mudanças nos parâmetros de *performance*.
 
 Utilizando o `matplotlib`, foi produzido o gráfico seguinte para melhor visualização dos aspectos de cada modelo, o qual é composto por três grupos com três barras cada, sendo respectivamente:
-* **Vermelho:** indica a acurácia;
-* **Azul:** indica o *recall*;
-* **Verde:** indica o F1.
+* **Vermelho:** indica as taxas do modelo Decision Tree Classifier;
+* **Azul:** indica as taxas do modelo KNeighbors Classifier;
+* **Verde:** indica as taxas do modelo Logistic Progression.
 
 ![Gráfico comparativo de métricas de desempenho para os três algoritmos](/assets/bar-graphic-comparing-scores.png)
 

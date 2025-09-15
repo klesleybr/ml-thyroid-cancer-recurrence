@@ -49,3 +49,11 @@ Ademais, analisando as matrizes de confusão, percebe-se a ineficiência do algo
 Em contrapatida, os modelos Decision Tree Classifier e Logistic Regression apresentaram resultados mais condizentes na etapa de teste, estando mais próximos dos registros estruturados no *dataset*. 
 
 Ressalta-se, entretanto, que a mudança em parâmetros de treinamento, o aumento das instâncias do *dataset* ou mesmo a inserção de novas *features* podem certamente mudar estes resultados. Pode-se, portanto, inferir que o contexto determina o melhor modelo, não sendo possível determinar a superioridade absoluta de um algoritmo em particular.
+
+## Informações Adicionais
+Este projeto é parte de uma atividade avaliativa da disciplina **Inteligência Artificial**. <br>
+
+*VI Período do curso de Sistemas de Informação* <br>
+
+**Docente:** Me. Ronierison Maciel <br>
+**Aluno:** José Klesley <br>
